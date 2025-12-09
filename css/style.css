@@ -21,3 +21,12 @@ img {
 ul {
   list-style: none;
 }
+
+/* ESTILOS GERAIS */
+body {
+  background: #faf6ed;
+  color: #222;
+  -webkit-font-smoothing: antialiased;
+  display: grid;
+  grid-template-columns: 1fr 130px minmax(300px, 800px) 1fr;
+}
